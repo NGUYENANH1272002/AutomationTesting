@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="GenerateFacsimile" project="AutomationTesting" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="TestCases.Admin.GenerateFacsimile" time="18.223" displayname="GenerateFacsimile" uniqueid="[engine:junit-vintage]/[runner:TestCases.Admin.GenerateFacsimile]">
+    <testcase name="SinhPhach_01" classname="TestCases.Admin.GenerateFacsimile" time="10.653" displayname="SinhPhach_01" uniqueid="[engine:junit-vintage]/[runner:TestCases.Admin.GenerateFacsimile]/[test:SinhPhach_01(TestCases.Admin.GenerateFacsimile)]"/>
+    <testcase name="SinhPhach_02" classname="TestCases.Admin.GenerateFacsimile" time="7.57" displayname="SinhPhach_02" uniqueid="[engine:junit-vintage]/[runner:TestCases.Admin.GenerateFacsimile]/[test:SinhPhach_02(TestCases.Admin.GenerateFacsimile)]"/>
+  </testsuite>
+</testrun>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="SearchStudent" project="AutomationTesting" tests="7" started="7" failures="1" errors="0" ignored="0">
+  <testsuite name="TestCases.Employee.SearchStudent" time="63.293" displayname="SearchStudent" uniqueid="[engine:junit-vintage]/[runner:TestCases.Employee.SearchStudent]">
+    <testcase name="TKSinhVien_01" classname="TestCases.Employee.SearchStudent" time="9.162" displayname="TKSinhVien_01" uniqueid="[engine:junit-vintage]/[runner:TestCases.Employee.SearchStudent]/[test:TKSinhVien_01(TestCases.Employee.SearchStudent)]"/>
+    <testcase name="TKSinhVien_02" classname="TestCases.Employee.SearchStudent" time="8.902" displayname="TKSinhVien_02" uniqueid="[engine:junit-vintage]/[runner:TestCases.Employee.SearchStudent]/[test:TKSinhVien_02(TestCases.Employee.SearchStudent)]"/>
+    <testcase name="TKSinhVien_03" classname="TestCases.Employee.SearchStudent" time="8.903" displayname="TKSinhVien_03" uniqueid="[engine:junit-vintage]/[runner:TestCases.Employee.SearchStudent]/[test:TKSinhVien_03(TestCases.Employee.SearchStudent)]">
+      <failure>java.lang.AssertionError&#13;
+	at org.junit.Assert.fail(Assert.java:87)&#13;
+	at org.junit.Assert.assertTrue(Assert.java:42)&#13;
+	at org.junit.Assert.assertTrue(Assert.java:53)&#13;
+	at Interfaces.InterfaceInputAbsenteeList.searchStudent(InterfaceInputAbsenteeList.java:22)&#13;
+	at TestCases.Employee.SearchStudent.TKSinhVien_03(SearchStudent.java:66)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="TKSinhVien_04" classname="TestCases.Employee.SearchStudent" time="9.011" displayname="TKSinhVien_04" uniqueid="[engine:junit-vintage]/[runner:TestCases.Employee.SearchStudent]/[test:TKSinhVien_04(TestCases.Employee.SearchStudent)]"/>
+    <testcase name="TKSinhVien_05" classname="TestCases.Employee.SearchStudent" time="9.086" displayname="TKSinhVien_05" uniqueid="[engine:junit-vintage]/[runner:TestCases.Employee.SearchStudent]/[test:TKSinhVien_05(TestCases.Employee.SearchStudent)]"/>
+    <testcase name="TKSinhVien_06" classname="TestCases.Employee.SearchStudent" time="9.022" displayname="TKSinhVien_06" uniqueid="[engine:junit-vintage]/[runner:TestCases.Employee.SearchStudent]/[test:TKSinhVien_06(TestCases.Employee.SearchStudent)]"/>
+    <testcase name="TKSinhVien_07" classname="TestCases.Employee.SearchStudent" time="9.204" displayname="TKSinhVien_07" uniqueid="[engine:junit-vintage]/[runner:TestCases.Employee.SearchStudent]/[test:TKSinhVien_07(TestCases.Employee.SearchStudent)]"/>
+  </testsuite>
+</testrun>

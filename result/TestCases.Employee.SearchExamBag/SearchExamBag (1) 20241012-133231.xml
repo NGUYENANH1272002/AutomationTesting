@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="SearchExamBag (1)" project="AutomationTesting" tests="7" started="7" failures="0" errors="0" ignored="0">
+  <testsuite name="TestCases.Employee.SearchExamBag" time="52.927" displayname="SearchExamBag" uniqueid="[engine:junit-vintage]/[runner:TestCases.Employee.SearchExamBag]">
+    <testcase name="TKTuiBaiThi_01" classname="TestCases.Employee.SearchExamBag" time="7.771" displayname="TKTuiBaiThi_01" uniqueid="[engine:junit-vintage]/[runner:TestCases.Employee.SearchExamBag]/[test:TKTuiBaiThi_01(TestCases.Employee.SearchExamBag)]"/>
+    <testcase name="TKTuiBaiThi_02" classname="TestCases.Employee.SearchExamBag" time="7.743" displayname="TKTuiBaiThi_02" uniqueid="[engine:junit-vintage]/[runner:TestCases.Employee.SearchExamBag]/[test:TKTuiBaiThi_02(TestCases.Employee.SearchExamBag)]"/>
+    <testcase name="TKTuiBaiThi_03" classname="TestCases.Employee.SearchExamBag" time="7.689" displayname="TKTuiBaiThi_03" uniqueid="[engine:junit-vintage]/[runner:TestCases.Employee.SearchExamBag]/[test:TKTuiBaiThi_03(TestCases.Employee.SearchExamBag)]"/>
+    <testcase name="TKTuiBaiThi_04" classname="TestCases.Employee.SearchExamBag" time="7.593" displayname="TKTuiBaiThi_04" uniqueid="[engine:junit-vintage]/[runner:TestCases.Employee.SearchExamBag]/[test:TKTuiBaiThi_04(TestCases.Employee.SearchExamBag)]"/>
+    <testcase name="TKTuiBaiThi_05" classname="TestCases.Employee.SearchExamBag" time="7.701" displayname="TKTuiBaiThi_05" uniqueid="[engine:junit-vintage]/[runner:TestCases.Employee.SearchExamBag]/[test:TKTuiBaiThi_05(TestCases.Employee.SearchExamBag)]"/>
+    <testcase name="TKTuiBaiThi_06" classname="TestCases.Employee.SearchExamBag" time="7.684" displayname="TKTuiBaiThi_06" uniqueid="[engine:junit-vintage]/[runner:TestCases.Employee.SearchExamBag]/[test:TKTuiBaiThi_06(TestCases.Employee.SearchExamBag)]"/>
+    <testcase name="TKTuiBaiThi_07" classname="TestCases.Employee.SearchExamBag" time="6.744" displayname="TKTuiBaiThi_07" uniqueid="[engine:junit-vintage]/[runner:TestCases.Employee.SearchExamBag]/[test:TKTuiBaiThi_07(TestCases.Employee.SearchExamBag)]"/>
+  </testsuite>
+</testrun>

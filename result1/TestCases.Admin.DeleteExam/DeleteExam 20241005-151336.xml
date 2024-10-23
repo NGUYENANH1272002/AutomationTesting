@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="DeleteExam" project="AutomationTesting" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="TestCases.Admin.DeleteExam" time="7.081" displayname="DeleteExam" uniqueid="[engine:junit-vintage]/[runner:TestCases.Admin.DeleteExam]">
+    <testcase name="XoaKyThi_01" classname="TestCases.Admin.DeleteExam" time="3.563" displayname="XoaKyThi_01" uniqueid="[engine:junit-vintage]/[runner:TestCases.Admin.DeleteExam]/[test:XoaKyThi_01(TestCases.Admin.DeleteExam)]"/>
+    <testcase name="XoaKyThi_02" classname="TestCases.Admin.DeleteExam" time="3.518" displayname="XoaKyThi_02" uniqueid="[engine:junit-vintage]/[runner:TestCases.Admin.DeleteExam]/[test:XoaKyThi_02(TestCases.Admin.DeleteExam)]"/>
+  </testsuite>
+</testrun>

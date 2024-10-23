@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="EditExam" project="AutomationTesting" tests="23" started="23" failures="0" errors="11" ignored="0">
+  <testsuite name="TestCases.Admin.EditExam" time="343.683" displayname="EditExam" uniqueid="[engine:junit-vintage]/[runner:TestCases.Admin.EditExam]">
+    <testcase name="SuaKyThi_01" classname="TestCases.Admin.EditExam" time="17.314" displayname="SuaKyThi_01" uniqueid="[engine:junit-vintage]/[runner:TestCases.Admin.EditExam]/[test:SuaKyThi_01(TestCases.Admin.EditExam)]"/>
+    <testcase name="SuaKyThi_02" classname="TestCases.Admin.EditExam" time="14.74" displayname="SuaKyThi_02" uniqueid="[engine:junit-vintage]/[runner:TestCases.Admin.EditExam]/[test:SuaKyThi_02(TestCases.Admin.EditExam)]">
+      <error>org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=129.0.6668.90)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.1.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61811}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 260623fe3c14dbc1e7baea32f6a12415&#13;
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:932)&#13;
+	at Commons.CommonFunction.getAlertMessage(CommonFunction.java:177)&#13;
+	at Commons.CommonFunction.assertAlertMessage(CommonFunction.java:181)&#13;
+	at Interfaces.InterfaceEditExam.edit(InterfaceEditExam.java:53)&#13;
+	at TestCases.Admin.EditExam.SuaKyThi_02(EditExam.java:57)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="SuaKyThi_03" classname="TestCases.Admin.EditExam" time="14.973" displayname="SuaKyThi_03" uniqueid="[engine:junit-vintage]/[runner:TestCases.Admin.EditExam]/[test:SuaKyThi_03(TestCases.Admin.EditExam)]">
+      <error>org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=129.0.6668.90)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.1.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61811}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 260623fe3c14dbc1e7baea32f6a12415&#13;
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:932)&#13;
+	at Commons.CommonFunction.getAlertMessage(CommonFunction.java:177)&#13;
+	at Commons.CommonFunction.assertAlertMessage(CommonFunction.java:181)&#13;
+	at Interfaces.InterfaceEditExam.edit(InterfaceEditExam.java:53)&#13;
+	at TestCases.Admin.EditExam.SuaKyThi_03(EditExam.java:62)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="SuaKyThi_04" classname="TestCases.Admin.EditExam" time="14.998" displayname="SuaKyThi_04" uniqueid="[engine:junit-vintage]/[runner:TestCases.Admin.EditExam]/[test:SuaKyThi_04(TestCases.Admin.EditExam)]"/>
+    <testcase name="SuaKyThi_05" classname="TestCases.Admin.EditExam" time="15.045" displayname="SuaKyThi_05" uniqueid="[engine:junit-vintage]/[runner:TestCases.Admin.EditExam]/[test:SuaKyThi_05(TestCases.Admin.EditExam)]">
+      <error>org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=129.0.6668.90)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.1.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61811}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 260623fe3c14dbc1e7baea32f6a12415&#13;
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:932)&#13;
+	at Commons.CommonFunction.getAlertMessage(CommonFunction.java:177)&#13;
+	at Commons.CommonFunction.assertAlertMessage(CommonFunction.java:181)&#13;
+	at Interfaces.InterfaceEditExam.edit(InterfaceEditExam.java:53)&#13;
+	at TestCases.Admin.EditExam.SuaKyThi_05(EditExam.java:72)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="SuaKyThi_06" classname="TestCases.Admin.EditExam" time="14.926" displayname="SuaKyThi_06" uniqueid="[engine:junit-vintage]/[runner:TestCases.Admin.EditExam]/[test:SuaKyThi_06(TestCases.Admin.EditExam)]">
+      <error>org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=129.0.6668.90)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.1.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61811}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 260623fe3c14dbc1e7baea32f6a12415&#13;
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:932)&#13;
+	at Commons.CommonFunction.getAlertMessage(CommonFunction.java:177)&#13;
+	at Commons.CommonFunction.assertAlertMessage(CommonFunction.java:181)&#13;
+	at Interfaces.InterfaceEditExam.edit(InterfaceEditExam.java:53)&#13;
+	at TestCases.Admin.EditExam.SuaKyThi_06(EditExam.java:77)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="SuaKyThi_07" classname="TestCases.Admin.EditExam" time="15.166" displayname="SuaKyThi_07" uniqueid="[engine:junit-vintage]/[runner:TestCases.Admin.EditExam]/[test:SuaKyThi_07(TestCases.Admin.EditExam)]">
+      <error>org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=129.0.6668.90)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.1.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61811}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 260623fe3c14dbc1e7baea32f6a12415&#13;
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:932)&#13;
+	at Commons.CommonFunction.getAlertMessage(CommonFunction.java:177)&#13;
+	at Commons.CommonFunction.assertAlertMessage(CommonFunction.java:181)&#13;
+	at Interfaces.InterfaceEditExam.edit(InterfaceEditExam.java:53)&#13;
+	at TestCases.Admin.EditExam.SuaKyThi_07(EditExam.java:82)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="SuaKyThi_08" classname="TestCases.Admin.EditExam" time="15.03" displayname="SuaKyThi_08" uniqueid="[engine:junit-vintage]/[runner:TestCases.Admin.EditExam]/[test:SuaKyThi_08(TestCases.Admin.EditExam)]"/>
+    <testcase name="SuaKyThi_09" classname="TestCases.Admin.EditExam" time="14.965" displayname="SuaKyThi_09" uniqueid="[engine:junit-vintage]/[runner:TestCases.Admin.EditExam]/[test:SuaKyThi_09(TestCases.Admin.EditExam)]">
+      <error>org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=129.0.6668.90)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.1.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61811}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 260623fe3c14dbc1e7baea32f6a12415&#13;
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:932)&#13;
+	at Commons.CommonFunction.getAlertMessage(CommonFunction.java:177)&#13;
+	at Commons.CommonFunction.assertAlertMessage(CommonFunction.java:181)&#13;
+	at Interfaces.InterfaceEditExam.edit(InterfaceEditExam.java:53)&#13;
+	at TestCases.Admin.EditExam.SuaKyThi_09(EditExam.java:92)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="SuaKyThi_10" classname="TestCases.Admin.EditExam" time="15.084" displayname="SuaKyThi_10" uniqueid="[engine:junit-vintage]/[runner:TestCases.Admin.EditExam]/[test:SuaKyThi_10(TestCases.Admin.EditExam)]">
+      <error>org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=129.0.6668.90)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.1.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61811}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 260623fe3c14dbc1e7baea32f6a12415&#13;
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:932)&#13;
+	at Commons.CommonFunction.getAlertMessage(CommonFunction.java:177)&#13;
+	at Commons.CommonFunction.assertAlertMessage(CommonFunction.java:181)&#13;
+	at Interfaces.InterfaceEditExam.edit(InterfaceEditExam.java:53)&#13;
+	at TestCases.Admin.EditExam.SuaKyThi_10(EditExam.java:97)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="SuaKyThi_11" classname="TestCases.Admin.EditExam" time="14.956" displayname="SuaKyThi_11" uniqueid="[engine:junit-vintage]/[runner:TestCases.Admin.EditExam]/[test:SuaKyThi_11(TestCases.Admin.EditExam)]">
+      <error>org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=129.0.6668.90)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.1.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61811}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 260623fe3c14dbc1e7baea32f6a12415&#13;
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:932)&#13;
+	at Commons.CommonFunction.getAlertMessage(CommonFunction.java:177)&#13;
+	at Commons.CommonFunction.assertAlertMessage(CommonFunction.java:181)&#13;
+	at Interfaces.InterfaceEditExam.edit(InterfaceEditExam.java:53)&#13;
+	at TestCases.Admin.EditExam.SuaKyThi_11(EditExam.java:102)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="SuaKyThi_12" classname="TestCases.Admin.EditExam" time="15.09" displayname="SuaKyThi_12" uniqueid="[engine:junit-vintage]/[runner:TestCases.Admin.EditExam]/[test:SuaKyThi_12(TestCases.Admin.EditExam)]">
+      <error>org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=129.0.6668.90)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.1.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61811}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 260623fe3c14dbc1e7baea32f6a12415&#13;
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:932)&#13;
+	at Commons.CommonFunction.getAlertMessage(CommonFunction.java:177)&#13;
+	at Commons.CommonFunction.assertAlertMessage(CommonFunction.java:181)&#13;
+	at Interfaces.InterfaceEditExam.edit(InterfaceEditExam.java:53)&#13;
+	at TestCases.Admin.EditExam.SuaKyThi_12(EditExam.java:107)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="SuaKyThi_13" classname="TestCases.Admin.EditExam" time="15.057" displayname="SuaKyThi_13" uniqueid="[engine:junit-vintage]/[runner:TestCases.Admin.EditExam]/[test:SuaKyThi_13(TestCases.Admin.EditExam)]">
+      <error>org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=129.0.6668.90)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.1.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61811}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 260623fe3c14dbc1e7baea32f6a12415&#13;
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:932)&#13;
+	at Commons.CommonFunction.getAlertMessage(CommonFunction.java:177)&#13;
+	at Commons.CommonFunction.assertAlertMessage(CommonFunction.java:181)&#13;
+	at Interfaces.InterfaceEditExam.edit(InterfaceEditExam.java:53)&#13;
+	at TestCases.Admin.EditExam.SuaKyThi_13(EditExam.java:112)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="SuaKyThi_14" classname="TestCases.Admin.EditExam" time="14.972" displayname="SuaKyThi_14" uniqueid="[engine:junit-vintage]/[runner:TestCases.Admin.EditExam]/[test:SuaKyThi_14(TestCases.Admin.EditExam)]"/>
+    <testcase name="SuaKyThi_15" classname="TestCases.Admin.EditExam" time="14.948" displayname="SuaKyThi_15" uniqueid="[engine:junit-vintage]/[runner:TestCases.Admin.EditExam]/[test:SuaKyThi_15(TestCases.Admin.EditExam)]">
+      <error>org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=129.0.6668.90)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.1.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61811}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 260623fe3c14dbc1e7baea32f6a12415&#13;
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:932)&#13;
+	at Commons.CommonFunction.getAlertMessage(CommonFunction.java:177)&#13;
+	at Commons.CommonFunction.assertAlertMessage(CommonFunction.java:181)&#13;
+	at Interfaces.InterfaceEditExam.edit(InterfaceEditExam.java:53)&#13;
+	at TestCases.Admin.EditExam.SuaKyThi_15(EditExam.java:122)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="SuaKyThi_16" classname="TestCases.Admin.EditExam" time="15.164" displayname="SuaKyThi_16" uniqueid="[engine:junit-vintage]/[runner:TestCases.Admin.EditExam]/[test:SuaKyThi_16(TestCases.Admin.EditExam)]"/>
+    <testcase name="SuaKyThi_17" classname="TestCases.Admin.EditExam" time="15.01" displayname="SuaKyThi_17" uniqueid="[engine:junit-vintage]/[runner:TestCases.Admin.EditExam]/[test:SuaKyThi_17(TestCases.Admin.EditExam)]"/>
+    <testcase name="SuaKyThi_18" classname="TestCases.Admin.EditExam" time="15.119" displayname="SuaKyThi_18" uniqueid="[engine:junit-vintage]/[runner:TestCases.Admin.EditExam]/[test:SuaKyThi_18(TestCases.Admin.EditExam)]"/>
+    <testcase name="SuaKyThi_19" classname="TestCases.Admin.EditExam" time="15.207" displayname="SuaKyThi_19" uniqueid="[engine:junit-vintage]/[runner:TestCases.Admin.EditExam]/[test:SuaKyThi_19(TestCases.Admin.EditExam)]"/>
+    <testcase name="SuaKyThi_20" classname="TestCases.Admin.EditExam" time="13.888" displayname="SuaKyThi_20" uniqueid="[engine:junit-vintage]/[runner:TestCases.Admin.EditExam]/[test:SuaKyThi_20(TestCases.Admin.EditExam)]"/>
+    <testcase name="SuaKyThi_21" classname="TestCases.Admin.EditExam" time="13.888" displayname="SuaKyThi_21" uniqueid="[engine:junit-vintage]/[runner:TestCases.Admin.EditExam]/[test:SuaKyThi_21(TestCases.Admin.EditExam)]"/>
+    <testcase name="SuaKyThi_22" classname="TestCases.Admin.EditExam" time="14.062" displayname="SuaKyThi_22" uniqueid="[engine:junit-vintage]/[runner:TestCases.Admin.EditExam]/[test:SuaKyThi_22(TestCases.Admin.EditExam)]"/>
+    <testcase name="SuaKyThi_23" classname="TestCases.Admin.EditExam" time="14.071" displayname="SuaKyThi_23" uniqueid="[engine:junit-vintage]/[runner:TestCases.Admin.EditExam]/[test:SuaKyThi_23(TestCases.Admin.EditExam)]"/>
+  </testsuite>
+</testrun>

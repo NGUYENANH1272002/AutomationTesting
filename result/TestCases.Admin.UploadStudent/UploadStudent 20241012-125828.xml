@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="UploadStudent" project="AutomationTesting" tests="10" started="10" failures="2" errors="0" ignored="1">
+  <testsuite name="TestCases.Admin.UploadStudent" time="163.897" displayname="UploadStudent" uniqueid="[engine:junit-vintage]/[runner:TestCases.Admin.UploadStudent]">
+    <testcase name="UploadDSThiSinh_01" classname="TestCases.Admin.UploadStudent" time="19.102" displayname="UploadDSThiSinh_01" uniqueid="[engine:junit-vintage]/[runner:TestCases.Admin.UploadStudent]/[test:UploadDSThiSinh_01(TestCases.Admin.UploadStudent)]"/>
+    <testcase name="UploadDSThiSinh_02" classname="TestCases.Admin.UploadStudent" time="11.653" displayname="UploadDSThiSinh_02" uniqueid="[engine:junit-vintage]/[runner:TestCases.Admin.UploadStudent]/[test:UploadDSThiSinh_02(TestCases.Admin.UploadStudent)]"/>
+    <testcase name="UploadDSThiSinh_03" classname="TestCases.Admin.UploadStudent" time="19.144" displayname="UploadDSThiSinh_03" uniqueid="[engine:junit-vintage]/[runner:TestCases.Admin.UploadStudent]/[test:UploadDSThiSinh_03(TestCases.Admin.UploadStudent)]">
+      <failure>
+        <expected>File Excel không có dữ liệu hoặc sai định dạng, vui lòng kiểm tra lại dữ liệu file excel!</expected>
+        <actual>FError uploading file: AxiosError: Network Error</actual>
+        org.opentest4j.AssertionFailedError: expected: &lt;File Excel không có dữ liệu hoặc sai định dạng, vui lòng kiểm tra lại dữ liệu file excel!&gt; but was: &lt;FError uploading file: AxiosError: Network Error&gt;&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)&#13;
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)&#13;
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)&#13;
+	at Commons.CommonFunction.assertAlertMessage(CommonFunction.java:195)&#13;
+	at Interfaces.InterfaceUploadStudent.upload(InterfaceUploadStudent.java:59)&#13;
+	at TestCases.Admin.UploadStudent.UploadDSThiSinh_03(UploadStudent.java:66)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+&#13;
+
+      </failure>
+    </testcase>
+    <testcase name="UploadDSThiSinh_04" classname="TestCases.Admin.UploadStudent" time="18.87" displayname="UploadDSThiSinh_04" uniqueid="[engine:junit-vintage]/[runner:TestCases.Admin.UploadStudent]/[test:UploadDSThiSinh_04(TestCases.Admin.UploadStudent)]"/>
+    <testcase name="UploadDSThiSinh_05" classname="TestCases.Admin.UploadStudent" time="19.061" displayname="UploadDSThiSinh_05" uniqueid="[engine:junit-vintage]/[runner:TestCases.Admin.UploadStudent]/[test:UploadDSThiSinh_05(TestCases.Admin.UploadStudent)]"/>
+    <testcase name="UploadDSThiSinh_06" classname="TestCases.Admin.UploadStudent" time="18.991" displayname="UploadDSThiSinh_06" uniqueid="[engine:junit-vintage]/[runner:TestCases.Admin.UploadStudent]/[test:UploadDSThiSinh_06(TestCases.Admin.UploadStudent)]"/>
+    <testcase name="UploadDSThiSinh_07" classname="TestCases.Admin.UploadStudent" time="19.074" displayname="UploadDSThiSinh_07" uniqueid="[engine:junit-vintage]/[runner:TestCases.Admin.UploadStudent]/[test:UploadDSThiSinh_07(TestCases.Admin.UploadStudent)]"/>
+    <testcase name="UploadDSThiSinh_08" classname="TestCases.Admin.UploadStudent" time="0.0" ignored="true" displayname="UploadDSThiSinh_08" uniqueid="[engine:junit-vintage]/[runner:TestCases.Admin.UploadStudent]/[test:UploadDSThiSinh_08(TestCases.Admin.UploadStudent)]"/>
+    <testcase name="UploadDSThiSinh_09" classname="TestCases.Admin.UploadStudent" time="18.994" displayname="UploadDSThiSinh_09" uniqueid="[engine:junit-vintage]/[runner:TestCases.Admin.UploadStudent]/[test:UploadDSThiSinh_09(TestCases.Admin.UploadStudent)]">
+      <failure>
+        <expected>File Excel không có dữ liệu hoặc sai định dạng, vui lòng kiểm tra lại dữ liệu file excel!</expected>
+        <actual>FError uploading file: AxiosError: Request failed with status code 500</actual>
+        org.opentest4j.AssertionFailedError: expected: &lt;File Excel không có dữ liệu hoặc sai định dạng, vui lòng kiểm tra lại dữ liệu file excel!&gt; but was: &lt;FError uploading file: AxiosError: Request failed with status code 500&gt;&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)&#13;
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)&#13;
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)&#13;
+	at Commons.CommonFunction.assertAlertMessage(CommonFunction.java:195)&#13;
+	at Interfaces.InterfaceUploadStudent.upload(InterfaceUploadStudent.java:59)&#13;
+	at TestCases.Admin.UploadStudent.UploadDSThiSinh_09(UploadStudent.java:97)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+&#13;
+
+      </failure>
+    </testcase>
+    <testcase name="UploadDSThiSinh_10" classname="TestCases.Admin.UploadStudent" time="18.988" displayname="UploadDSThiSinh_10" uniqueid="[engine:junit-vintage]/[runner:TestCases.Admin.UploadStudent]/[test:UploadDSThiSinh_10(TestCases.Admin.UploadStudent)]"/>
+  </testsuite>
+</testrun>

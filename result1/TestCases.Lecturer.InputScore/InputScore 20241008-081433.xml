@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="InputScore" project="AutomationTesting" tests="32" started="32" failures="6" errors="0" ignored="0">
+  <testsuite name="TestCases.Lecturer.InputScore" time="1208.933" displayname="InputScore" uniqueid="[engine:junit-vintage]/[runner:TestCases.Lecturer.InputScore]">
+    <testcase name="QuetPhachNhapDiem_01" classname="TestCases.Lecturer.InputScore" time="21.631" displayname="QuetPhachNhapDiem_01" uniqueid="[engine:junit-vintage]/[runner:TestCases.Lecturer.InputScore]/[test:QuetPhachNhapDiem_01(TestCases.Lecturer.InputScore)]"/>
+    <testcase name="QuetPhachNhapDiem_03" classname="TestCases.Lecturer.InputScore" time="51.618" displayname="QuetPhachNhapDiem_03" uniqueid="[engine:junit-vintage]/[runner:TestCases.Lecturer.InputScore]/[test:QuetPhachNhapDiem_03(TestCases.Lecturer.InputScore)]"/>
+    <testcase name="QuetPhachNhapDiem_04" classname="TestCases.Lecturer.InputScore" time="52.287" displayname="QuetPhachNhapDiem_04" uniqueid="[engine:junit-vintage]/[runner:TestCases.Lecturer.InputScore]/[test:QuetPhachNhapDiem_04(TestCases.Lecturer.InputScore)]"/>
+    <testcase name="QuetPhachNhapDiem_05" classname="TestCases.Lecturer.InputScore" time="47.73" displayname="QuetPhachNhapDiem_05" uniqueid="[engine:junit-vintage]/[runner:TestCases.Lecturer.InputScore]/[test:QuetPhachNhapDiem_05(TestCases.Lecturer.InputScore)]"/>
+    <testcase name="QuetPhachNhapDiem_06" classname="TestCases.Lecturer.InputScore" time="21.75" displayname="QuetPhachNhapDiem_06" uniqueid="[engine:junit-vintage]/[runner:TestCases.Lecturer.InputScore]/[test:QuetPhachNhapDiem_06(TestCases.Lecturer.InputScore)]"/>
+    <testcase name="QuetPhachNhapDiem_07" classname="TestCases.Lecturer.InputScore" time="21.217" displayname="QuetPhachNhapDiem_07" uniqueid="[engine:junit-vintage]/[runner:TestCases.Lecturer.InputScore]/[test:QuetPhachNhapDiem_07(TestCases.Lecturer.InputScore)]"/>
+    <testcase name="QuetPhachNhapDiem_08" classname="TestCases.Lecturer.InputScore" time="47.476" displayname="QuetPhachNhapDiem_08" uniqueid="[engine:junit-vintage]/[runner:TestCases.Lecturer.InputScore]/[test:QuetPhachNhapDiem_08(TestCases.Lecturer.InputScore)]"/>
+    <testcase name="QuetPhachNhapDiem_09" classname="TestCases.Lecturer.InputScore" time="47.645" displayname="QuetPhachNhapDiem_09" uniqueid="[engine:junit-vintage]/[runner:TestCases.Lecturer.InputScore]/[test:QuetPhachNhapDiem_09(TestCases.Lecturer.InputScore)]"/>
+    <testcase name="QuetPhachNhapDiem_10" classname="TestCases.Lecturer.InputScore" time="47.857" displayname="QuetPhachNhapDiem_10" uniqueid="[engine:junit-vintage]/[runner:TestCases.Lecturer.InputScore]/[test:QuetPhachNhapDiem_10(TestCases.Lecturer.InputScore)]"/>
+    <testcase name="QuetPhachNhapDiem_11" classname="TestCases.Lecturer.InputScore" time="47.677" displayname="QuetPhachNhapDiem_11" uniqueid="[engine:junit-vintage]/[runner:TestCases.Lecturer.InputScore]/[test:QuetPhachNhapDiem_11(TestCases.Lecturer.InputScore)]"/>
+    <testcase name="QuetPhachNhapDiem_12" classname="TestCases.Lecturer.InputScore" time="21.463" displayname="QuetPhachNhapDiem_12" uniqueid="[engine:junit-vintage]/[runner:TestCases.Lecturer.InputScore]/[test:QuetPhachNhapDiem_12(TestCases.Lecturer.InputScore)]">
+      <failure>
+        <expected>Đã xảy ra lỗi trong quá trình cập nhật dữ liệu. Vui lòng tắt trình duyêt mở lại và thử lại sau!</expected>
+        <actual>Nhập điểm thành công</actual>
+        org.opentest4j.AssertionFailedError: expected: &lt;Đã xảy ra lỗi trong quá trình cập nhật dữ liệu. Vui lòng tắt trình duyêt mở lại và thử lại sau!&gt; but was: &lt;Nhập điểm thành công&gt;&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)&#13;
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)&#13;
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)&#13;
+	at Commons.CommonFunction.assertAlertMessage(CommonFunction.java:195)&#13;
+	at Interfaces.InterfaceInputScore.input(InterfaceInputScore.java:50)&#13;
+	at TestCases.Lecturer.InputScore.QuetPhachNhapDiem_12(InputScore.java:112)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+&#13;
+
+      </failure>
+    </testcase>
+    <testcase name="QuetPhachNhapDiem_13" classname="TestCases.Lecturer.InputScore" time="52.013" displayname="QuetPhachNhapDiem_13" uniqueid="[engine:junit-vintage]/[runner:TestCases.Lecturer.InputScore]/[test:QuetPhachNhapDiem_13(TestCases.Lecturer.InputScore)]"/>
+    <testcase name="QuetPhachNhapDiem_14" classname="TestCases.Lecturer.InputScore" time="47.587" displayname="QuetPhachNhapDiem_14" uniqueid="[engine:junit-vintage]/[runner:TestCases.Lecturer.InputScore]/[test:QuetPhachNhapDiem_14(TestCases.Lecturer.InputScore)]"/>
+    <testcase name="QuetPhachNhapDiem_15" classname="TestCases.Lecturer.InputScore" time="21.384" displayname="QuetPhachNhapDiem_15" uniqueid="[engine:junit-vintage]/[runner:TestCases.Lecturer.InputScore]/[test:QuetPhachNhapDiem_15(TestCases.Lecturer.InputScore)]"/>
+    <testcase name="QuetPhachNhapDiem_16" classname="TestCases.Lecturer.InputScore" time="21.678" displayname="QuetPhachNhapDiem_16" uniqueid="[engine:junit-vintage]/[runner:TestCases.Lecturer.InputScore]/[test:QuetPhachNhapDiem_16(TestCases.Lecturer.InputScore)]"/>
+    <testcase name="QuetPhachNhapDiem_17" classname="TestCases.Lecturer.InputScore" time="47.618" displayname="QuetPhachNhapDiem_17" uniqueid="[engine:junit-vintage]/[runner:TestCases.Lecturer.InputScore]/[test:QuetPhachNhapDiem_17(TestCases.Lecturer.InputScore)]"/>
+    <testcase name="QuetPhachNhapDiem_18" classname="TestCases.Lecturer.InputScore" time="47.413" displayname="QuetPhachNhapDiem_18" uniqueid="[engine:junit-vintage]/[runner:TestCases.Lecturer.InputScore]/[test:QuetPhachNhapDiem_18(TestCases.Lecturer.InputScore)]"/>
+    <testcase name="QuetPhachNhapDiem_19" classname="TestCases.Lecturer.InputScore" time="47.57" displayname="QuetPhachNhapDiem_19" uniqueid="[engine:junit-vintage]/[runner:TestCases.Lecturer.InputScore]/[test:QuetPhachNhapDiem_19(TestCases.Lecturer.InputScore)]"/>
+    <testcase name="QuetPhachNhapDiem_20" classname="TestCases.Lecturer.InputScore" time="47.762" displayname="QuetPhachNhapDiem_20" uniqueid="[engine:junit-vintage]/[runner:TestCases.Lecturer.InputScore]/[test:QuetPhachNhapDiem_20(TestCases.Lecturer.InputScore)]"/>
+    <testcase name="QuetPhachNhapDiem_21" classname="TestCases.Lecturer.InputScore" time="21.374" displayname="QuetPhachNhapDiem_21" uniqueid="[engine:junit-vintage]/[runner:TestCases.Lecturer.InputScore]/[test:QuetPhachNhapDiem_21(TestCases.Lecturer.InputScore)]">
+      <failure>
+        <expected>Đã xảy ra lỗi trong quá trình cập nhật dữ liệu. Vui lòng tắt trình duyêt mở lại và thử lại sau!</expected>
+        <actual>Nhập điểm thành công</actual>
+        org.opentest4j.AssertionFailedError: expected: &lt;Đã xảy ra lỗi trong quá trình cập nhật dữ liệu. Vui lòng tắt trình duyêt mở lại và thử lại sau!&gt; but was: &lt;Nhập điểm thành công&gt;&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)&#13;
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)&#13;
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)&#13;
+	at Commons.CommonFunction.assertAlertMessage(CommonFunction.java:195)&#13;
+	at Interfaces.InterfaceInputScore.input(InterfaceInputScore.java:50)&#13;
+	at TestCases.Lecturer.InputScore.QuetPhachNhapDiem_21(InputScore.java:157)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+&#13;
+
+      </failure>
+    </testcase>
+    <testcase name="QuetPhachNhapDiem_22" classname="TestCases.Lecturer.InputScore" time="21.448" displayname="QuetPhachNhapDiem_22" uniqueid="[engine:junit-vintage]/[runner:TestCases.Lecturer.InputScore]/[test:QuetPhachNhapDiem_22(TestCases.Lecturer.InputScore)]"/>
+    <testcase name="QuetPhachNhapDiem_23" classname="TestCases.Lecturer.InputScore" time="21.374" displayname="QuetPhachNhapDiem_23" uniqueid="[engine:junit-vintage]/[runner:TestCases.Lecturer.InputScore]/[test:QuetPhachNhapDiem_23(TestCases.Lecturer.InputScore)]">
+      <failure>
+        <expected>Đã xảy ra lỗi trong quá trình cập nhật dữ liệu. Vui lòng tắt trình duyêt mở lại và thử lại sau!</expected>
+        <actual>Nhập điểm thành công</actual>
+        org.opentest4j.AssertionFailedError: expected: &lt;Đã xảy ra lỗi trong quá trình cập nhật dữ liệu. Vui lòng tắt trình duyêt mở lại và thử lại sau!&gt; but was: &lt;Nhập điểm thành công&gt;&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)&#13;
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)&#13;
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)&#13;
+	at Commons.CommonFunction.assertAlertMessage(CommonFunction.java:195)&#13;
+	at Interfaces.InterfaceInputScore.input(InterfaceInputScore.java:50)&#13;
+	at TestCases.Lecturer.InputScore.QuetPhachNhapDiem_23(InputScore.java:167)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+&#13;
+
+      </failure>
+    </testcase>
+    <testcase name="QuetPhachNhapDiem_24" classname="TestCases.Lecturer.InputScore" time="21.508" displayname="QuetPhachNhapDiem_24" uniqueid="[engine:junit-vintage]/[runner:TestCases.Lecturer.InputScore]/[test:QuetPhachNhapDiem_24(TestCases.Lecturer.InputScore)]">
+      <failure>
+        <expected>Đã xảy ra lỗi trong quá trình cập nhật dữ liệu. Vui lòng tắt trình duyêt mở lại và thử lại sau!</expected>
+        <actual>Nhập điểm thành công</actual>
+        org.opentest4j.AssertionFailedError: expected: &lt;Đã xảy ra lỗi trong quá trình cập nhật dữ liệu. Vui lòng tắt trình duyêt mở lại và thử lại sau!&gt; but was: &lt;Nhập điểm thành công&gt;&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)&#13;
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)&#13;
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)&#13;
+	at Commons.CommonFunction.assertAlertMessage(CommonFunction.java:195)&#13;
+	at Interfaces.InterfaceInputScore.input(InterfaceInputScore.java:50)&#13;
+	at TestCases.Lecturer.InputScore.QuetPhachNhapDiem_24(InputScore.java:172)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+&#13;
+
+      </failure>
+    </testcase>
+    <testcase name="QuetPhachNhapDiem_25" classname="TestCases.Lecturer.InputScore" time="21.281" displayname="QuetPhachNhapDiem_25" uniqueid="[engine:junit-vintage]/[runner:TestCases.Lecturer.InputScore]/[test:QuetPhachNhapDiem_25(TestCases.Lecturer.InputScore)]"/>
+    <testcase name="QuetPhachNhapDiem_26" classname="TestCases.Lecturer.InputScore" time="21.525" displayname="QuetPhachNhapDiem_26" uniqueid="[engine:junit-vintage]/[runner:TestCases.Lecturer.InputScore]/[test:QuetPhachNhapDiem_26(TestCases.Lecturer.InputScore)]">
+      <failure>
+        <expected>Đã xảy ra lỗi trong quá trình cập nhật dữ liệu. Vui lòng tắt trình duyêt mở lại và thử lại sau!</expected>
+        <actual>Nhập điểm thành công</actual>
+        org.opentest4j.AssertionFailedError: expected: &lt;Đã xảy ra lỗi trong quá trình cập nhật dữ liệu. Vui lòng tắt trình duyêt mở lại và thử lại sau!&gt; but was: &lt;Nhập điểm thành công&gt;&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)&#13;
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)&#13;
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)&#13;
+	at Commons.CommonFunction.assertAlertMessage(CommonFunction.java:195)&#13;
+	at Interfaces.InterfaceInputScore.input(InterfaceInputScore.java:50)&#13;
+	at TestCases.Lecturer.InputScore.QuetPhachNhapDiem_26(InputScore.java:182)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+&#13;
+
+      </failure>
+    </testcase>
+    <testcase name="QuetPhachNhapDiem_27" classname="TestCases.Lecturer.InputScore" time="21.375" displayname="QuetPhachNhapDiem_27" uniqueid="[engine:junit-vintage]/[runner:TestCases.Lecturer.InputScore]/[test:QuetPhachNhapDiem_27(TestCases.Lecturer.InputScore)]">
+      <failure>
+        <expected>Đã xảy ra lỗi trong quá trình cập nhật dữ liệu. Vui lòng tắt trình duyêt mở lại và thử lại sau!</expected>
+        <actual>Nhập điểm thành công</actual>
+        org.opentest4j.AssertionFailedError: expected: &lt;Đã xảy ra lỗi trong quá trình cập nhật dữ liệu. Vui lòng tắt trình duyêt mở lại và thử lại sau!&gt; but was: &lt;Nhập điểm thành công&gt;&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)&#13;
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)&#13;
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)&#13;
+	at Commons.CommonFunction.assertAlertMessage(CommonFunction.java:195)&#13;
+	at Interfaces.InterfaceInputScore.input(InterfaceInputScore.java:50)&#13;
+	at TestCases.Lecturer.InputScore.QuetPhachNhapDiem_27(InputScore.java:187)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+&#13;
+
+      </failure>
+    </testcase>
+    <testcase name="QuetPhachNhapDiem_28" classname="TestCases.Lecturer.InputScore" time="52.027" displayname="QuetPhachNhapDiem_28" uniqueid="[engine:junit-vintage]/[runner:TestCases.Lecturer.InputScore]/[test:QuetPhachNhapDiem_28(TestCases.Lecturer.InputScore)]"/>
+    <testcase name="QuetPhachNhapDiem_29" classname="TestCases.Lecturer.InputScore" time="47.637" displayname="QuetPhachNhapDiem_29" uniqueid="[engine:junit-vintage]/[runner:TestCases.Lecturer.InputScore]/[test:QuetPhachNhapDiem_29(TestCases.Lecturer.InputScore)]"/>
+    <testcase name="QuetPhachNhapDiem_30" classname="TestCases.Lecturer.InputScore" time="47.592" displayname="QuetPhachNhapDiem_30" uniqueid="[engine:junit-vintage]/[runner:TestCases.Lecturer.InputScore]/[test:QuetPhachNhapDiem_30(TestCases.Lecturer.InputScore)]"/>
+    <testcase name="QuetPhachNhapDiem_31" classname="TestCases.Lecturer.InputScore" time="47.606" displayname="QuetPhachNhapDiem_31" uniqueid="[engine:junit-vintage]/[runner:TestCases.Lecturer.InputScore]/[test:QuetPhachNhapDiem_31(TestCases.Lecturer.InputScore)]"/>
+    <testcase name="QuetPhachNhapDiem_32" classname="TestCases.Lecturer.InputScore" time="51.287" displayname="QuetPhachNhapDiem_32" uniqueid="[engine:junit-vintage]/[runner:TestCases.Lecturer.InputScore]/[test:QuetPhachNhapDiem_32(TestCases.Lecturer.InputScore)]"/>
+    <testcase name="QuetPhachNhapDiem_33" classname="TestCases.Lecturer.InputScore" time="51.503" displayname="QuetPhachNhapDiem_33" uniqueid="[engine:junit-vintage]/[runner:TestCases.Lecturer.InputScore]/[test:QuetPhachNhapDiem_33(TestCases.Lecturer.InputScore)]"/>
+  </testsuite>
+</testrun>

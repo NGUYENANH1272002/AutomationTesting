@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="SearchExamBag" project="AutomationTesting" tests="7" started="7" failures="0" errors="1" ignored="1">
+  <testsuite name="TestCases.Admin.SearchExamBag" time="75.228" displayname="SearchExamBag" uniqueid="[engine:junit-vintage]/[runner:TestCases.Admin.SearchExamBag]">
+    <testcase name="TKTuiBaiThi_01" classname="TestCases.Admin.SearchExamBag" time="0.001" ignored="true" displayname="TKTuiBaiThi_01" uniqueid="[engine:junit-vintage]/[runner:TestCases.Admin.SearchExamBag]/[test:TKTuiBaiThi_01(TestCases.Admin.SearchExamBag)]"/>
+    <testcase name="TKTuiBaiThi_02" classname="TestCases.Admin.SearchExamBag" time="8.008" displayname="TKTuiBaiThi_02" uniqueid="[engine:junit-vintage]/[runner:TestCases.Admin.SearchExamBag]/[test:TKTuiBaiThi_02(TestCases.Admin.SearchExamBag)]"/>
+    <testcase name="TKTuiBaiThi_03" classname="TestCases.Admin.SearchExamBag" time="7.565" displayname="TKTuiBaiThi_03" uniqueid="[engine:junit-vintage]/[runner:TestCases.Admin.SearchExamBag]/[test:TKTuiBaiThi_03(TestCases.Admin.SearchExamBag)]"/>
+    <testcase name="TKTuiBaiThi_04" classname="TestCases.Admin.SearchExamBag" time="7.639" displayname="TKTuiBaiThi_04" uniqueid="[engine:junit-vintage]/[runner:TestCases.Admin.SearchExamBag]/[test:TKTuiBaiThi_04(TestCases.Admin.SearchExamBag)]"/>
+    <testcase name="TKTuiBaiThi_05" classname="TestCases.Admin.SearchExamBag" time="7.566" displayname="TKTuiBaiThi_05" uniqueid="[engine:junit-vintage]/[runner:TestCases.Admin.SearchExamBag]/[test:TKTuiBaiThi_05(TestCases.Admin.SearchExamBag)]"/>
+    <testcase name="TKTuiBaiThi_06" classname="TestCases.Admin.SearchExamBag" time="37.705" displayname="TKTuiBaiThi_06" uniqueid="[engine:junit-vintage]/[runner:TestCases.Admin.SearchExamBag]/[test:TKTuiBaiThi_06(TestCases.Admin.SearchExamBag)]">
+      <error>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h4[contains(text(),'Không tìm thấy túi bài thi')]"}
+  (Session info: chrome=129.0.6668.90)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.1.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63011}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bb560ba5db8732655c42c9c57c5db226
+*** Element info: {Using=xpath, value=//h4[contains(text(),'Không tìm thấy túi bài thi')]}&#13;
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)&#13;
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)&#13;
+	at Commons.CommonFunction.assertElementDisplayed(CommonFunction.java:120)&#13;
+	at Interfaces.InterfaceSearchExamBag.search(InterfaceSearchExamBag.java:31)&#13;
+	at TestCases.Admin.SearchExamBag.TKTuiBaiThi_06(SearchExamBag.java:83)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="TKTuiBaiThi_07" classname="TestCases.Admin.SearchExamBag" time="6.742" displayname="TKTuiBaiThi_07" uniqueid="[engine:junit-vintage]/[runner:TestCases.Admin.SearchExamBag]/[test:TKTuiBaiThi_07(TestCases.Admin.SearchExamBag)]"/>
+  </testsuite>
+</testrun>
